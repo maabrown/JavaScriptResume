@@ -1,0 +1,59 @@
+#role {
+	color: white;
+	padding: 35px;
+	font-weight: bold;
+}
+
+
+#topContacts li {
+  font-size: 12px;
+}
+
+#skillsH3 {
+	padding-top: 45px;
+	padding-left: 24px;
+}
+
+.welcome-message {
+	padding-left: 350px;
+	line-height: 67px;
+}
+
+h2 {
+	text-align: center;
+	font-variant: small-caps;
+}
+
+#letsConnect h2 {
+	color: white;
+}
+
+@media only screen and (max-width: 750px)  {
+
+#role {
+		display: block;
+		text-align:center;
+	}
+
+#name {
+	display: block;
+	text-align: center;
+}
+
+ul.flex-box {
+	flex-direction: column;
+	text-align: center;
+}
+
+} /* mobile only */
+
+
+
+
+@media only screen and (min-width: 750px) {
+  #skillsH3,
+  .biopic {
+    display: flex;
+  }
+}
+

@@ -1,7 +1,7 @@
 * {
   padding:0;
   margin:0;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Playfair Display', serif;
 }
 
 .clearfix {
@@ -11,6 +11,7 @@
 .education-entry, .work-entry, .project-entry {
   padding-left: 5%;
   padding-right: 5%;
+  padding-top: 1%;
 }
 
 h1 {
@@ -165,6 +166,7 @@ img {
 span {
   padding: 5px;
 }
+
 
 #letsConnect {
   text-align: center;
